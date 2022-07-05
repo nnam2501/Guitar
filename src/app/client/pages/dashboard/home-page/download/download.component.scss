@@ -1,0 +1,55 @@
+.download {
+  width: 1172px;
+  height: 533px;
+  margin-left: 374px;
+  margin-top: 240px;
+  display: inline-flex;
+  &-content {
+    width: 484px;
+    height: 318px;
+    transform: translateY(116px);
+
+    &-text {
+      height: 201px;
+      font-family: "cal-sans", sans-serif;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: calc(67px / 48px);
+    }
+    &-button {
+      margin-top: 60px;
+      &-ggplay {
+        width: 193px;
+        height: 57px;
+      }
+      &-appstore {
+        margin-left: 26px;
+        width: 171px;
+        height: 57px;
+      }
+    }
+  }
+
+  &-images {
+    width: 568px;
+    height: 100%;
+    margin-left: 120px;
+    display: inline-flex;
+    position: relative;
+
+    &-base {
+      margin-top: 91px;
+    }
+
+    .a {
+      position: absolute;
+      top: -76px;
+      left: -32px;
+    }
+    .b {
+      position: absolute;
+      top: -4px;
+      right: -32px;
+    }
+  }
+}

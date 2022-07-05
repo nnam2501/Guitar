@@ -1,0 +1,22 @@
+<div class="category">
+  <div class="category-title">
+    <p>Choose based on <a style="color: #ff6428">Categories</a></p>
+  </div>
+  <div class="category-item">
+    <div class="grid-item" *ngFor="let i of data">
+      <app-item-category [img]="i.img" [name]="i.name"></app-item-category>
+    </div>
+    <!-- <app-item-category
+      [img]="'../../../../assets/images/Electric.png'"
+      [name]="'Electric'"
+    ></app-item-category>
+    <app-item-category
+      [img]="'../../../../assets/images/Basses.png'"
+      [name]="'Basses'"
+    ></app-item-category>
+    <app-item-category
+      [img]="'../../../../assets/images/Collections.png'"
+      [name]="'Collections'"
+    ></app-item-category> -->
+  </div>
+</div>

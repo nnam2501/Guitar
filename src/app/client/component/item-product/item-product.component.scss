@@ -1,0 +1,26 @@
+.item {
+  width: 364px;
+  height: 282px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  img {
+    width: 364px;
+    height: 190px;
+  }
+  &-name {
+    margin-top: 40px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(24px / 16px);
+    color: #121212;
+  }
+  &-price {
+    margin-top: 7px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(21px / 14px);
+    color: #666666;
+  }
+}

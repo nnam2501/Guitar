@@ -1,0 +1,84 @@
+.brands {
+  width: 1021.16px;
+  height: 357px;
+  margin-left: 209px;
+  margin-top: 220px;
+
+  &-title {
+    font-family: "cal-sans", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 52.8px;
+    p {
+      text-align: center;
+      //   width: 495px;
+      height: 53px;
+    }
+  }
+
+  &-content {
+    height: 229px;
+    display: inline-flex;
+    margin-top: 75px;
+    gap: 0 160px;
+    // gap: 27%;
+    &-1 {
+      width: 142.69px;
+      height: 229px;
+      #br-1 {
+        width: 143px;
+        height: 89px;
+      }
+      #br-2 {
+        width: 109px;
+        height: 60px;
+        margin: 77px 17px 0px 17px;
+      }
+    }
+
+    &-2 {
+      // margin-left: 160px;
+      width: 136px;
+      height: 191px;
+      margin-top: 21px;
+
+      #br-1 {
+        width: 132px;
+        height: 47px;
+        margin-left: 2px;
+      }
+      #br-2 {
+        margin-top: 117px;
+      }
+    }
+    &-3 {
+      // margin-left: 160px;
+      width: 152px;
+      height: 207px;
+      margin-top: 20px;
+
+      #br-1 {
+        width: 131px;
+        height: 50px;
+        margin-left: 10px;
+      }
+      #br-2 {
+        margin-top: 100px;
+      }
+    }
+    &-4 {
+      // margin-left: 160px;
+      width: 111px;
+      height: 218px;
+      margin-top: 10px;
+
+      #br-1 {
+        width: 110px;
+        height: 68px;
+      }
+      #br-2 {
+        margin-top: 91px;
+      }
+    }
+  }
+}

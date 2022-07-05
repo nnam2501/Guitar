@@ -1,0 +1,25 @@
+.why {
+  height: 508px;
+  margin-top: 180px;
+  background-color: #121212;
+  color: #ffffff;
+  padding: 93px 155px;
+
+  &-content {
+    height: 321px;
+    &-title {
+      height: 53px;
+      font-family: "cal-sans", sans-serif;
+      font-weight: 600;
+      font-size: 44px;
+      line-height: calc(53px / 44px);
+      text-align: center;
+    }
+
+    &-item {
+      margin-top: 75px;
+      display: inline-flex;
+      gap: 0 220px;
+    }
+  }
+}

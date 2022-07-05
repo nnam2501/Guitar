@@ -1,0 +1,35 @@
+.category {
+  width: 1088px;
+  height: 413px;
+  margin-left: 176px;
+  margin-top: 180px;
+  &-title {
+    font-family: "cal-sans", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 52.8px;
+    p {
+      text-align: center;
+      //   width: 495px;
+      height: 53px;
+    }
+  }
+  &-item {
+    margin-top: 80px;
+    // display: inline-grid;
+    display: inline-flex;
+    // column-gap: 70px;
+    // margin-right: 50px;
+    gap: 70px;
+
+    // .Electric {
+    //   margin-left: 69px;
+    // }
+    // .Basses {
+    //   margin-left: 70px;
+    // }
+    // .Collections {
+    //   margin-left: 69px;
+    // }
+  }
+}

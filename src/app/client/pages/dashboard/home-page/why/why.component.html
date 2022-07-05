@@ -1,0 +1,18 @@
+<div class="why">
+  <div class="why-content">
+    <div class="why-content-title">
+      <p style="color: #ffffff">
+        Why try <a style="color: #ff6428">Rhythm?</a>
+      </p>
+    </div>
+    <div class="why-content-item">
+      <div class="" *ngFor="let i of data">
+        <app-item-why
+          [icon]="i.icon"
+          [name]="i.name"
+          [desc]="i.desc"
+        ></app-item-why>
+      </div>
+    </div>
+  </div>
+</div>

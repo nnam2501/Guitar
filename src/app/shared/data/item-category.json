@@ -1,0 +1,18 @@
+[
+  {
+    "img": "../../../../assets/images/Acoustic.png",
+    "name": "Acoustic"
+  },
+  {
+    "img": "../../../../assets/images/Electric.png",
+    "name": "Electric"
+  },
+  {
+    "img": "../../../../assets/images/Basses.png",
+    "name": "Basses"
+  },
+  {
+    "img": "../../../../assets/images/Collections.png",
+    "name": "Collections"
+  }
+]

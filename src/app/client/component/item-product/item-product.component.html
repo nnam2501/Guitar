@@ -1,0 +1,12 @@
+<div class="item" [routerLink]="['/product', id]">
+  <img src="{{ img }}" alt="" />
+  <div class="item-name">
+    <a>
+      {{ name }}
+    </a>
+  </div>
+  <div class="item-price">
+    <!-- use pipe to transform price of product -->
+    {{ price | currency: "USD":"symbol-narrow":"4.2-2" }}
+  </div>
+</div>

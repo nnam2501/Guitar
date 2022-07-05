@@ -1,0 +1,37 @@
+<div class="products">
+  <div class="products-title">
+    <p>Check out the <a style="color: #ff6428">Store</a></p>
+  </div>
+  <div class="products-content">
+    <div class="products-content-new">
+      <div class="products-content-new-title">
+        <p class="a">NEW ON THE BOARD</p>
+        <p class="b">view all</p>
+      </div>
+      <div class="products-content-new-item">
+        <div class="" *ngFor="let i of new">
+          <app-item-product
+            [img]="i.img"
+            [name]="i.name"
+            [price]="i.price"
+          ></app-item-product>
+        </div>
+      </div>
+    </div>
+    <div class="products-content-top">
+      <div class="products-content-top-title">
+        <p class="a">TOP SELLING</p>
+        <p class="b">view all</p>
+      </div>
+      <div class="products-content-top-item">
+        <div class="" *ngFor="let i of top">
+          <app-item-product
+            [img]="i.img"
+            [name]="i.name"
+            [price]="i.price"
+          ></app-item-product>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

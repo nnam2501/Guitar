@@ -1,0 +1,9 @@
+.title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+::ng-deep .navigation .link nb-icon {
+  display: none !important;
+  color: #ff6428;
+}

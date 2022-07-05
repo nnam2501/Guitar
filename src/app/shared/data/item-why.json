@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "../../../../assets/images/browsing.png",
+    "name": "Smooth Browsing",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "icon": "../../../../assets/images/wallet.png",
+    "name": "EASY Delivery",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "icon": "../../../../assets/images/deli.png",
+    "name": "SwiFT PAYMENTS",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  }
+]

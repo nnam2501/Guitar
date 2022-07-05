@@ -1,0 +1,13 @@
+.item {
+  //   &-image {
+  width: 220px;
+  height: 280px;
+  p {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(30px / 20px);
+    transform: translate(0, -63px);
+    text-align: center;
+  }
+}

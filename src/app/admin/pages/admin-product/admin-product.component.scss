@@ -1,0 +1,30 @@
+table {
+  margin-top: 10px;
+  width: 100%;
+}
+
+// table > thead > tr > th {
+//   padding-top: 20px;
+// }
+
+.mat-header-cell {
+  padding-top: 20px;
+}
+.mat-cell {
+  // padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+.btn-del {
+  margin-left: 5px;
+}
+
+.image {
+  // padding-top: 10px;
+  padding-bottom: 0px;
+  img {
+    width: 100px;
+    height: auto;
+    margin-bottom: -10px;
+  }
+}

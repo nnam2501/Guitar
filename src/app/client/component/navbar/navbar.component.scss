@@ -1,0 +1,26 @@
+.navbar {
+  height: 29px;
+  padding: 0;
+  &-title {
+    display: inline-flex;
+    width: 123px;
+    img {
+      width: 28px;
+    }
+    p {
+      font-family: "cal-sans", sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: calc(29px / 24px);
+      //   width: 83px;
+      margin-left: 12px;
+      cursor: default;
+    }
+  }
+  &-content {
+    display: inline-flex;
+    margin-left: 131px;
+    width: 309px;
+    justify-content: space-between;
+  }
+}

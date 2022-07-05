@@ -1,0 +1,37 @@
+.item {
+  width: 230px;
+  height: 193px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  height: fit-content;
+
+  &-icon {
+    width: 72px;
+    height: 72px;
+    background-color: #262626;
+    margin-left: 79px;
+    border-radius: 20px;
+    padding: 20px;
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  &-name {
+    margin-top: 40px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: calc(27px / 18px);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  &-desc {
+    margin-top: 12px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(21px / 14px);
+    color: #666666;
+  }
+}

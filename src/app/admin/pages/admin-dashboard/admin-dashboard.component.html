@@ -1,0 +1,15 @@
+<nb-layout>
+  <nb-layout-header>
+    <button class="btn1" nbButton (click)="backToHomePage()">
+      Back to home page
+    </button>
+    <button class="btn2" nbButton (click)="logout()">Log out</button>
+  </nb-layout-header>
+  <nb-sidebar tag="left-sidebar">
+    <nb-menu [items]="items" autoCollapse="true"> </nb-menu>
+  </nb-sidebar>
+  <nb-layout-column>
+    <router-outlet></router-outlet>
+  </nb-layout-column>
+  <nb-layout-footer> Design by ABC XYZ </nb-layout-footer>
+</nb-layout>

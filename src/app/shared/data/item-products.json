@@ -1,0 +1,42 @@
+[
+  {
+    "type": "new",
+    "datas": [
+      {
+        "img": "../../../../assets/images/products/Paul.png",
+        "name": "The Essential Les Paul",
+        "price": "$1,299.00"
+      },
+      {
+        "img": "../../../../assets/images/products/j45.png",
+        "name": "J-45 Standard",
+        "price": "$1,699.00"
+      },
+      {
+        "img": "../../../../assets/images/products/hummingbird.png",
+        "name": "Hummingbird Standard",
+        "price": "$2,099.00"
+      }
+    ]
+  },
+  {
+    "type": "top",
+    "datas": [
+      {
+        "img": "../../../../assets/images/products/phv.png",
+        "name": "Active Precision Bass® PH V",
+        "price": 4199
+      },
+      {
+        "img": "../../../../assets/images/products/redondo.png",
+        "name": "Redondo Special",
+        "price": 2800
+      },
+      {
+        "img": "../../../../assets/images/products/strato.png",
+        "name": "Professional II Stratocaster®",
+        "price": 3199
+      }
+    ]
+  }
+]
